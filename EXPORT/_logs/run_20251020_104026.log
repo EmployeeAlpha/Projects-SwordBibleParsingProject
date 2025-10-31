@@ -1,0 +1,8 @@
+[2025-10-20 10:40:26] INFO Run 20251020_104026 started. Parallel=True TL=6 SelfTest=False
+[2025-10-20 10:40:26] INFO Installing PowerShellYaml for config parsing...
+[2025-10-20 10:40:33] WARN Config load failed (C:\Bibles\export.config.yaml). Using defaults. The specified module 'PowerShellYaml' was not loaded because no valid module file was found in any module directory.
+[2025-10-20 10:41:49] INFO diatheke => C:\Tools\BibleTools\bin\diatheke.exe
+[2025-10-20 10:42:33] INFO mod2osis => C:\Tools\BibleTools\bin\mod2osis.exe
+[2025-10-20 10:43:14] INFO 7z => C:\Program Files\7-Zip\7z.exe
+[2025-10-20 10:43:59] INFO pandoc => C:\Users\Lexmilian de Mello\AppData\Local\Pandoc\pandoc.exe
+[2025-10-20 10:44:52] INFO xelatex => C:\Users\Lexmilian de Mello\AppData\Local\Programs\MiKTeX\miktex\bin\x64\xelatex-dev.exe

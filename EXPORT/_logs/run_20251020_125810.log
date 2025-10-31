@@ -1,0 +1,2 @@
+[2025-10-20 12:58:10] INFO Run 20251020_125810 started. Parallel=True TL=6 SelfTest=False
+[2025-10-20 12:58:10] WARN Config load failed (C:\Bibles\export.config.yaml). Using defaults. Item has already been added. Key in dictionary: 'site'  Key being added: 'site'

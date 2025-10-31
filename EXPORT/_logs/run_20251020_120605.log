@@ -1,0 +1,3 @@
+[2025-10-20 12:06:05] INFO Run 20251020_120605 started. Parallel=True TL=6 SelfTest=False
+[2025-10-20 12:06:05] INFO Installing PowerShellYaml for config parsing...
+[2025-10-20 12:06:10] WARN Config load failed (C:\Bibles\export.config.yaml). Using defaults. The specified module 'PowerShellYaml' was not loaded because no valid module file was found in any module directory.

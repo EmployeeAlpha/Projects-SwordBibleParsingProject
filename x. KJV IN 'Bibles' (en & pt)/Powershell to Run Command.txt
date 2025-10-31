@@ -1,0 +1,5 @@
+pwsh -NoProfile -ExecutionPolicy Bypass -File C:\Bibles\FullKit-CBibles-Windows.ps1 `
+  -SourceRoot 'C:\Bibles\SWORD_modules' `
+  -ExportRoot 'C:\Bibles\EXPORT' `
+  -Config 'C:\Bibles\export.config.yaml' `
+  -Parallel -ThrottleLimit 6

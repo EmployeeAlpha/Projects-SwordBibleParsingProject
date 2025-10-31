@@ -1,0 +1,9 @@
+# 1) Open PowerShell 7
+# 2) Save script as C:\Bibles\FullKit-CBibles-Windows.ps1
+# 3) Optional config at C:\Bibles\export.config.yaml
+
+pwsh -NoProfile -ExecutionPolicy Bypass -File C:\Bibles\FullKit-CBibles-Windows.ps1 `
+  -SourceRoot 'C:\Bibles\SWORD_modules' `
+  -ExportRoot 'C:\Bibles\EXPORT' `
+  -Config 'C:\Bibles\export.config.yaml' `
+  -Parallel -ThrottleLimit 6

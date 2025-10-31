@@ -1,0 +1,4 @@
+[2025-10-20 11:00:32] INFO Run 20251020_110032 started. Parallel=True TL=6 SelfTest=False
+[2025-10-20 11:00:32] INFO Installing PowerShellYaml for config parsing...
+[2025-10-20 11:00:37] WARN Config load failed (C:\Bibles\export.config.yaml). Using defaults. The specified module 'PowerShellYaml' was not loaded because no valid module file was found in any module directory.
+[2025-10-20 11:01:44] INFO diatheke => C:\Tools\BibleTools\bin\diatheke.exe

@@ -1,0 +1,41 @@
+# export.config.yaml
+formats:
+  txt: true
+  osis: true
+  md: true
+  pdf: true
+  epub: true
+  docx: true
+  per_chapter: true
+  per_book: true
+  verse_json: true
+  verse_csv: true
+  strongs_tsv: true
+  xref_footnotes: true
+  diglots: true
+  site: true
+  opds: true
+  sqlite: true
+  bundles: true
+
+parallel:
+  enabled: false
+  throttle: 4
+
+# ✅ Restrict to KJV in English and Portuguese
+filters:
+  include_modules: ["KJV"]          # only the KJV module
+  include_langs:   ["en", "pt", "pt-BR", "pt-PT"]
+  exclude_modules: []
+  exclude_langs:   []
+
+# (Optional) make the diglot pair explicit
+diglot_pairs:
+  - [KJV]
+
+license:
+  exclude_restricted: false
+
+site:
+  title: "CBibles Export"
+  theme: "minimal"

@@ -1,0 +1,22 @@
+[2025-10-20 19:36:32] INFO Run 20251020_193632 started. Parallel=True TL=6 SelfTest=False
+[2025-10-20 19:36:32] INFO Loaded YAML config C:\Bibles\export.config.yaml (merged).
+[2025-10-20 19:37:13] INFO diatheke => C:\Tools\BibleTools\bin\diatheke.exe
+[2025-10-20 19:37:48] INFO mod2osis => C:\Tools\BibleTools\bin\mod2osis.exe
+[2025-10-20 19:38:23] INFO 7z => C:\Program Files\7-Zip\7z.exe
+[2025-10-20 19:38:58] INFO pandoc => C:\Users\Lexmilian de Mello\AppData\Local\Pandoc\pandoc.exe
+[2025-10-20 19:39:37] INFO xelatex => C:\Users\Lexmilian de Mello\AppData\Local\Programs\MiKTeX\miktex\bin\x64\xelatex-dev.exe
+[2025-10-20 19:40:26] INFO wkhtmltopdf => C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe
+[2025-10-20 19:41:13] INFO qpdf => C:\Program Files\PDF24\qpdf\bin\qpdf.exe
+[2025-10-20 19:41:31] INFO pdftk => C:\Program Files (x86)\PDFtk\bin\pdftk.exe
+[2025-10-20 19:42:27] INFO gswin64c => C:\Program Files\PDF24\gs\bin\gswin64c.exe
+[2025-10-20 19:42:41] INFO sqlite3 => C:\Users\Lexmilian de Mello\AppData\Local\Android\Sdk\platform-tools\sqlite3.exe
+[2025-10-20 19:42:42] INFO === Module: KJV ===
+[2025-10-20 19:42:44] WARN TXT export failed for KJV — Cannot bind argument to parameter 'Value' because it is an empty string.
+[2025-10-20 19:42:45] ERROR Fatal: Cannot find path 'C:\Bibles\EXPORT\modules\KJV\main.txt' because it does not exist.
+[2025-10-20 19:42:45] ERROR At: At line:354 char:14
++       $raw = Get-Content -Raw -LiteralPath $Txt
++              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2025-10-20 19:42:45] ERROR Stack: at PandocFromTxtToMdPdf, <No file>: line 354
+at Build-Textual-Formats, <No file>: line 389
+at Process-Module, <No file>: line 688
+at <ScriptBlock>, <No file>: line 15

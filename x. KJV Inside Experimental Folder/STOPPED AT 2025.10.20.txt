@@ -1,0 +1,23 @@
+The logs stopped at 8:07pm, and it is now 9:05pm. 
+
+Underneath this display in PoweShell 7 the underline cursor just blinks on and off:
+ 
+PS C:\> # 1) Open PowerShell 7 >> # 2) Save script as C:\Bibles\FullKit-CBibles-Windows.ps1 
+>> # 3) Optional config at C:\Bibles\export.config.yaml 
+>> 
+>> pwsh -NoProfile -ExecutionPolicy Bypass -File C:\Bibles\FullKit-CBibles-Windows.ps1 
+>> -SourceRoot 'C:\Bibles\SWORD_modules' >> -ExportRoot 'C:\Bibles\EXPORT' 
+>> -Config 'C:\Bibles\export.config.yaml' >> -Parallel -ThrottleLimit 6 
+[2025-10-20 19:59:33] INFO Run 20251020_195933 started. Parallel=True TL=6 SelfTest=False 
+[2025-10-20 19:59:33] INFO Loaded YAML config C:\Bibles\export.config.yaml (merged). 
+[2025-10-20 20:00:41] INFO diatheke => C:\Tools\BibleTools\bin\diatheke.exe 
+[2025-10-20 20:01:44] INFO mod2osis => C:\Tools\BibleTools\bin\mod2osis.exe 
+[2025-10-20 20:02:43] INFO 7z => C:\Program Files\7-Zip\7z.exe 
+[2025-10-20 20:03:34] INFO pandoc => C:\Users\Lexmilian de Mello\AppData\Local\Pandoc\pandoc.exe 
+[2025-10-20 20:04:26] INFO xelatex => C:\Users\Lexmilian de Mello\AppData\Local\Programs\MiKTeX\miktex\bin\x64\xelatex-dev.exe 
+[2025-10-20 20:05:20] INFO wkhtmltopdf => C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe 
+[2025-10-20 20:06:12] INFO qpdf => C:\Program Files\PDF24\qpdf\bin\qpdf.exe 
+[2025-10-20 20:06:30] INFO pdftk => C:\Program Files (x86)\PDFtk\bin\pdftk.exe 
+[2025-10-20 20:07:26] INFO gswin64c => C:\Program Files\PDF24\gs\bin\gswin64c.exe 
+[2025-10-20 20:07:45] INFO sqlite3 => C:\Users\Lexmilian de Mello\AppData\Local\Android\Sdk\platform-tools\sqlite3.exe 
+[2025-10-20 20:07:50] INFO === Module: KJV ===

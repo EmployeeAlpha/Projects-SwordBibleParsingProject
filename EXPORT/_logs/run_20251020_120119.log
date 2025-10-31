@@ -1,0 +1,4 @@
+[2025-10-20 12:01:19] INFO Run 20251020_120119 started. Parallel=True TL=6 SelfTest=False
+[2025-10-20 12:01:19] INFO Installing PowerShellYaml for config parsing...
+[2025-10-20 12:01:23] WARN Config load failed (C:\Bibles\export.config.yaml). Using defaults. The specified module 'PowerShellYaml' was not loaded because no valid module file was found in any module directory.
+[2025-10-20 12:01:23] ERROR Fatal: The property 'include_modules' cannot be found on this object. Verify that the property exists and can be set.

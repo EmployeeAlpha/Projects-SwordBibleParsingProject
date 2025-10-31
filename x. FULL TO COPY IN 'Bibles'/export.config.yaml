@@ -1,0 +1,34 @@
+# export.config.yaml — FINAL+PLUS defaults
+formats:
+  txt: true
+  osis: true
+  md: true
+  pdf: true
+  epub: true
+  docx: true
+  per_chapter: true
+  per_book: true
+  verse_json: true
+  verse_csv: true
+  strongs_tsv: true
+  xref_footnotes: true      # (parsed from OSIS notes/xrefs when present)
+  diglots: true
+  site: true
+  opds: true
+  sqlite: true
+  bundles: true
+
+parallel:
+  enabled: false
+  throttle: 4
+
+diglot_pairs:
+  # - [KJV, ASV]
+  # - [ESV, LSG]
+
+license:
+  exclude_restricted: false  # if true, restricted modules are omitted from public bundles
+
+site:
+  title: "CBibles Export"
+  theme: "minimal"
